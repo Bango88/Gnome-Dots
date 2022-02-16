@@ -1,0 +1,147 @@
+[org/gnome/control-center]
+last-panel='sound'
+
+[org/gnome/desktop/background]
+picture-uri='file:///home/finleyv/Pictures/Wallpapers/dark-cat.png'
+
+[org/gnome/desktop/input-sources]
+per-window=false
+sources=[('xkb', 'us')]
+
+[org/gnome/desktop/interface]
+font-antialiasing='grayscale'
+font-hinting='slight'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Catppuccin-purple-dark-compact'
+
+[org/gnome/desktop/notifications]
+application-children=['firefox', 'gnome-power-panel']
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+
+[org/gnome/desktop/screensaver]
+picture-uri='file:///home/finleyv/Pictures/Wallpapers/dark-cat.png'
+
+[org/gnome/desktop/wm/keybindings]
+move-to-workspace-1=['<Shift><Super>exclam']
+move-to-workspace-2=['<Shift><Super>at']
+move-to-workspace-3=['<Shift><Super>numbersign']
+move-to-workspace-4=['<Shift><Super>dollar']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-left=['<Super>Left']
+switch-to-workspace-right=['<Super>Right']
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=561
+window-width=1194
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>Return'
+command='alacritty'
+name='Terminal'
+
+[org/gnome/shell]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Terminal.desktop', 'com.discordapp.Discord.desktop']
+welcome-dialog-last-shown-version='41.3'
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=8
+appicon-padding=4
+available-monitors=[0]
+hotkeys-overlay-combo='TEMPORARILY'
+leftbox-padding=-1
+panel-anchors='{"0":"MIDDLE"}'
+panel-lengths='{"0":100}'
+panel-sizes='{"0":32}'
+status-icon-padding=-1
+tray-padding=-1
+window-preview-title-position='TOP'
+
+[org/gnome/shell/extensions/user-theme]
+name='Catppuccin-purple-dark-compact'
+
+[org/gnome/shell/keybindings]
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/terminal/legacy/profiles:]
+default='6f647103-1185-4e8a-bb97-5b65b64285d0'
+list=['6f647103-1185-4e8a-bb97-5b65b64285d0']
+
+[org/gnome/terminal/legacy/profiles:/:6f647103-1185-4e8a-bb97-5b65b64285d0]
+background-color='#1E1E2E'
+bold-color-same-as-fg=true
+cursor-background-color='#F5E0DC'
+cursor-colors-set=true
+cursor-foreground-color='#1E1E2E'
+foreground-color='#D7DAE0'
+highlight-colors-set=false
+palette=['#6E6C7C', '#F28FAD', '#ABE9B3', '#FAE3B0', '#96CDFB', '#DDB6F2', '#F5C2E7', '#D9E0EE', '#988BA2', '#F28FAD', '#ABE9B3', '#FAE3B0', '#96CDFB', '#DDB6F2', '#F5C2E7', '#D9E0EE']
+use-theme-colors=false
+visible-name='Default'
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=161
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(102, 102)
+window-size=(1203, 1001)
